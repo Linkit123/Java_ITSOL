@@ -1,0 +1,15 @@
+create table Car
+(
+	ID int primary key,
+    name NVARCHAR2(50),
+    number_Plate int,
+	year_of_manufacture int,
+	brand varchar(50),
+	have_Insurance int,
+	cart_type varchar(50),
+    package varchar(50),
+    package_type varchar(50)
+)
+
+
+SELECT * FROM Car
